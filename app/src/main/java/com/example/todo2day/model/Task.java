@@ -3,14 +3,14 @@ package com.example.todo2day.model;
 public class Task {
 
 
-    private int mId;
+    private long mId;
     private String mDescription;
     private boolean mIsDone;
 
 
 
 
-    public Task(int mId, String mDescription, boolean mIsDone) {
+    public Task(long mId, String mDescription, boolean mIsDone) {
         this.mId = mId;
         this.mDescription = mDescription;
         this.mIsDone = mIsDone;
@@ -35,11 +35,11 @@ public class Task {
                 '}';
     }
 
-    public int getmId() {
+    public long getmId() {
         return mId;
     }
 
-    public void setmId(int mId) {
+    public void setmId(long mId) {
         this.mId = mId;
     }
 
